@@ -1,0 +1,70 @@
+body {
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(26, 0, 43, 1) 0%,
+    rgba(47, 32, 136, 1) 0%,
+    rgba(143, 0, 235, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(26, 0, 43, 1) 0%,
+    rgba(47, 32, 136, 1) 0%,
+    rgba(143, 0, 235, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(26, 0, 43, 1) 0%,
+    rgba(47, 32, 136, 1) 0%,
+    rgba(143, 0, 235, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#8f00eb",GradientType=1);
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+
+  height: 100vh;
+}
+
+#main {
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+}
+
+input[type='text'] {
+  padding: 10px;
+  font-size: 18px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.info {
+  color: white;
+  text-align: center;
+}
+#city {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.DDMMYY {
+  font-weight: 100;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.temp,
+#MinMax {
+  margin-top: 50px;
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#MinMax {
+  font-size: 30px;
+}
